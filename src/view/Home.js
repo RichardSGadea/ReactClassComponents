@@ -57,7 +57,7 @@ class Home extends Component {
 // Mapea el estado de Redux al componente
 const mapStateToProps = (state) => {
     return {
-        todos: state.todos
+        todos: state.todos.todos
     };
 };
 
