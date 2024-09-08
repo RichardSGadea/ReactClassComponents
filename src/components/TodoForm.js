@@ -40,7 +40,7 @@ class TodoForm extends Component {
                     <label className="form-label text-light fw-bold">Operator</label>
                     <input type="text" name='operator' className="form-control "  onChange={this.handleInputChange}/>
                 </div>
-                <div class="mb-3">
+                <div className="mb-3">
                     <label className="form-label text-light fw-bold">Priority</label>
                     <select name='priority' className="form-select" onChange={this.handleInputChange}>
                         {options.map((option, index) => {
