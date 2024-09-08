@@ -1,0 +1,22 @@
+{
+    "todos" : [
+        {
+            "title": "Task 1",
+            "priority": "low",
+            "operator": "Max",
+            "description": "lorem description 1"
+        },
+        {
+            "title": "Task 2",
+            "priority": "middle",
+            "operator": "Richard",
+            "description": "lorem description 2"
+        },
+        {  
+            "title": "Task 3",
+            "priority": "high",
+            "operator": "Anna",
+            "description": "lorem description 3"  
+        }
+    ]
+}
