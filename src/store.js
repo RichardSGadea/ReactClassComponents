@@ -25,6 +25,6 @@ const todosReducer = (state = initialState, action) => {
 };
 
 // Crear el store
-const store = createStore(todosReducer);
+const store = createStore(todosReducer, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());
 
 export default store;
